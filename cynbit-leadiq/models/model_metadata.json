@@ -1,0 +1,125 @@
+{
+  "model_type": "Logistic Regression with TF-IDF + Structured Features",
+  "trained_at": "2026-11-24 14:03:06 UTC",
+  "random_seed": 42,
+  "train_samples": 360,
+  "test_samples": 90,
+  "positive_class_ratio_train": 0.647,
+  "positive_class_ratio_test": 0.644,
+  "accuracy": 0.8889,
+  "precision": 0.9615,
+  "recall": 0.8621,
+  "f1_score": 0.9091,
+  "roc_auc": 0.9461,
+  "confusion_matrix": {
+    "true_negatives": 30,
+    "false_positives": 2,
+    "false_negatives": 8,
+    "true_positives": 50
+  },
+  "top_positive_features": [
+    {
+      "feature": "qualification_score",
+      "coefficient": 1.5261,
+      "odds_ratio": 4.6
+    },
+    {
+      "feature": "budget_tier_$15,000 - $50,000 (High)",
+      "coefficient": 0.8381,
+      "odds_ratio": 2.3119
+    },
+    {
+      "feature": "need",
+      "coefficient": 0.8303,
+      "odds_ratio": 2.2941
+    },
+    {
+      "feature": "word_count",
+      "coefficient": 0.7762,
+      "odds_ratio": 2.1731
+    },
+    {
+      "feature": "company_size_Mid-Market (51 - 500 employees)",
+      "coefficient": 0.6374,
+      "odds_ratio": 1.8916
+    },
+    {
+      "feature": "timeline_Immediate (< 2 weeks)",
+      "coefficient": 0.4994,
+      "odds_ratio": 1.6478
+    },
+    {
+      "feature": "primary_category_Cloud & DevOps",
+      "coefficient": 0.3576,
+      "odds_ratio": 1.43
+    },
+    {
+      "feature": "source_channel_Referral / Partner",
+      "coefficient": 0.2739,
+      "odds_ratio": 1.3151
+    },
+    {
+      "feature": "timeline_Short Term (1 - 2 months)",
+      "coefficient": 0.2585,
+      "odds_ratio": 1.295
+    },
+    {
+      "feature": "learning",
+      "coefficient": 0.1925,
+      "odds_ratio": 1.2123
+    }
+  ],
+  "top_negative_features": [
+    {
+      "feature": "budget_tier_Unspecified / Flexible",
+      "coefficient": -0.529,
+      "odds_ratio": 0.5892
+    },
+    {
+      "feature": "company_size_Not Specified",
+      "coefficient": -0.529,
+      "odds_ratio": 0.5892
+    },
+    {
+      "feature": "timeline_Exploratory / No fixed date",
+      "coefficient": -0.5274,
+      "odds_ratio": 0.5901
+    },
+    {
+      "feature": "primary_category_Other / Advisory",
+      "coefficient": -0.527,
+      "odds_ratio": 0.5904
+    },
+    {
+      "feature": "app",
+      "coefficient": -0.4237,
+      "odds_ratio": 0.6546
+    },
+    {
+      "feature": "q2",
+      "coefficient": -0.3735,
+      "odds_ratio": 0.6883
+    },
+    {
+      "feature": "q2 initiatives",
+      "coefficient": -0.3735,
+      "odds_ratio": 0.6883
+    },
+    {
+      "feature": "regarding q2",
+      "coefficient": -0.3735,
+      "odds_ratio": 0.6883
+    },
+    {
+      "feature": "website",
+      "coefficient": -0.3488,
+      "odds_ratio": 0.7056
+    },
+    {
+      "feature": "local",
+      "coefficient": -0.3208,
+      "odds_ratio": 0.7255
+    }
+  ],
+  "synthetic_data_disclaimer": "NOTICE: This model was trained on reproducibly synthesized benchmark data. High test metrics reflect synthetic statistical fidelity and do not constitute evidence of real-world enterprise conversion accuracy."
+}
